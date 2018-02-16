@@ -29,7 +29,7 @@
 بوت عمل ويب هوك @RAMBO_HOOKBOT
 
 
-رابط ال   https://github.com/  : github
+رابط ال   https://github.com/rami009/syriav2.git : github
 
 
 اي مشكله تصير  وياك تعال هنا @ramixnxx_bot او @RAMBO_SYR
