@@ -2,7 +2,7 @@
 
 ob_start();
 
-$API_KEY = 'توكن بوتك هنا'; 
+$API_KEY = '992136666:AAEhoPpxNaNU7kmU398MOPY5ODdu4mP2oxI'; 
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -69,7 +69,7 @@ $link = explode("\n", $get_link);
 $get_tag = file_get_contents('tg/tag.txt');
 $tag = explode("\n", $get_tag);
 $admin = file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=$chat_id&user_id=$id");
-$idbotid = 522825675;  // حط ايدي بوتك هنا
+$idbotid = 992136666;
 
 
 if($text == '/start'){
@@ -81,15 +81,15 @@ bot('sendMessage',[
 'reply_markup'=>json_encode([
 'inline_keyboard'=>[
 [
-['text'=>' تابع جديدنا  📚','url'=>'t.me/TH3VICTORY']
+['text'=>' تابع جديدنا  📚','url'=>'t.me/ArQMRI']
 ],
 
 [
-['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/ramixnxx_bot']
+['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/MaythaMH']
 ],
 
 [
-['text'=>' قناه الفريق ⚒','url'=>'https://t.me/TH3VICTORY']
+['text'=>' قناه الفريق ⚒','url'=>'https://t.me/ArQMRI']
 ]
 ]])
 ]);
@@ -104,15 +104,15 @@ bot('sendMessage',[
 'reply_markup'=>json_encode([
 'inline_keyboard'=>[
 [
-['text'=>' تابع جديدنا  📚','url'=>'t.me/TH3VICTORY']
+['text'=>' تابع جديدنا  📚','url'=>'t.me/ArQMRI']
 ],
 
 [
-['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/ramixnxx_bot']
+['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/MaythaMH']
 ],
 
 [
-['text'=>' قناه الفريق ⚒','url'=>'https://t.me/TH3VICTORY']
+['text'=>' قناه الفريق ⚒','url'=>'https://t.me/ArQMRI']
 ]
 ]])
 ]);
@@ -127,15 +127,15 @@ bot('sendMessage',[
 'reply_markup'=>json_encode([
 'inline_keyboard'=>[
 [
-['text'=>' تابع جديدنا  📚','url'=>'t.me/TH3VICTORY']
+['text'=>' تابع جديدنا  📚','url'=>'t.me/ArQMRI']
 ],
 
 [
-['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/ramixnxx_bot']
+['text'=>' اسئلتكم واقتراحاتكم ⚙️','url'=>'t.me/MaythaMH']
 ],
 
 [
-['text'=>' قناه الفريق ⚒','url'=>'https://t.me/TH3VICTORY']
+['text'=>' قناه الفريق ⚒','url'=>'https://t.me/MaythaMH']
 ]
 ]])
 ]);
